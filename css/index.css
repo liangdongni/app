@@ -1,0 +1,790 @@
+ /*顶部*/
+ 
+ * {
+     list-style: none;
+ }
+ /*.nav2 {
+     position: relative;
+ }*/
+ 
+ .navbar-app {
+     padding: 15px 0;
+     background-color: white;
+     border: 0;
+ }
+ /* 
+ .nav {
+     position: fixed;
+ }*/
+ 
+ .navbar-app .navbar-brand img {
+     width: 50px;
+     height: 50px;
+ }
+ 
+ .navbar-app .navbar-brand {
+     padding: 0px;
+ }
+ 
+ .herobanner_content {
+     padding: 50px 0;
+     text-align: left;
+ }
+ 
+ .navbar-app .navbar-nav>li a {
+     color: #545e6b;
+     font-weight: 600;
+     font-size: 15px;
+     border: 1px solid #E0002B;
+     border-radius: 20px;
+     margin-right: 5px;
+     color: #E0002B;
+     background-color: #fff;
+ }
+ 
+ .navbar-app .navbar-nav>li a:hover {
+     color: #FFF;
+     background-color: #E0002B;
+ }
+ 
+ .navbar-default .navbar-nav>.open>a,
+ .navbar-default .navbar-nav>.open>a:focus,
+ .navbar-default .navbar-nav>.open>a:hover {
+     color: #FFF;
+     background-color: #E0002B;
+     border: 1px solid #E0002B;
+ }
+ 
+ .dropdown-menu {
+     border: none;
+     min-width: 120px;
+ }
+ 
+ .dropdown-menu>li>a {
+     text-align: center;
+ }
+ 
+ .navbar-default .navbar-toggle:focus,
+ .navbar-default .navbar-toggle:hover {
+     background-color: #fff;
+ }
+ 
+ .navbar-default .navbar-toggle {
+     border-color: #E0002B;
+ }
+ 
+ .container>h1 {
+     margin-top: 100px;
+     text-align: center;
+     color: #E0002B;
+     margin-bottom: 20px;
+ }
+ /*笑话大全*/
+ 
+ .joke {
+     border: 1px solid #E0002B;
+     margin-bottom: 20px;
+     padding-bottom: 10px;
+ }
+ 
+ .jape1 .joke {
+     border: 1px solid #E0002B;
+     margin-bottom: 20px;
+     padding-bottom: 10px;
+ }
+ 
+ .joke h2 span {
+     font-size: 14px;
+     margin-left: 10px;
+ }
+ 
+ .joke p {
+     letter-spacing: 2px;
+     font-size: 16px;
+ }
+ 
+ h3 {
+     text-align: center;
+     text-shadow: 5px 5px 5px #E0002B;
+     font-weight: bolder;
+ }
+ 
+ .jape2 .joke {
+     border: 1px dashed #E0002B;
+     margin-bottom: 20px;
+     padding-bottom: 10px;
+     background-color: rgba(0, 0, 0, 0.1)
+ }
+ /*不信不笑*/
+ 
+ .jape3 .joke {
+     border: 1px dashed #E0002B;
+     margin-bottom: 20px;
+     padding-bottom: 10px;
+ }
+ 
+ .joke h2 {
+     display: block;
+     white-space: nowrap;
+     overflow: hidden;
+     text-overflow: ellipsis;
+ }
+ 
+ .jape3 .joke>p img {
+     width: 150px;
+     height: 150px;
+     margin: 0 auto;
+ }
+ /*movie*/
+ 
+ .movie .joke {
+     border: 1px dashed #E0002B;
+     border-radius: 20px;
+     margin-bottom: 20px;
+     padding-bottom: 10px;
+ }
+ 
+ .movie .joke>p img {
+     width: 165px;
+     height: 231px;
+     margin: 0 auto;
+ }
+ 
+ .movie {
+     padding: 10px;
+ }
+ 
+ .movie>h2 {
+     color: #E0002B;
+ }
+ 
+ .movie .joke h2 span {
+     display: block;
+     margin: 0 auto;
+     margin-top: 10px;
+ }
+ /*猜一猜*/
+ 
+ .guess .joke {
+     border: 1px solid #E0002B;
+     background-color: rgba(255, 0, 0, 0.1);
+     border-radius: 20px;
+     margin-bottom: 20px;
+     padding-bottom: 10px;
+ }
+ 
+ .guess .joke span {
+     margin-left: 10px;
+     color: #E0002B;
+     font-weight: 700;
+     font-size: 18px;
+     display: none;
+ }
+ /*公交车*/
+ 
+ .public .joke {
+     border-radius: 20px;
+     margin-bottom: 20px;
+     padding-bottom: 10px;
+     background-color: rgba(0, 0, 0, 0.1)
+ }
+ 
+ .public .joke p {
+     font-weight: 600;
+ }
+ 
+ .public .joke p>span {
+     font-weight: 100;
+     color: #E0002B;
+ }
+ /*在线翻译*/
+ 
+ .fanyi .swiper-wrapper .swiper-slide img {
+     width: 100%;
+     height: auto;
+     margin: 0 auto;
+ }
+ /*动画*/
+ 
+ @-webkit-keyframes orbloop {
+     from {
+         -webkit-transform: rotate(0deg);
+     }
+     to {
+         -webkit-transform: rotate(360deg);
+     }
+ }
+ 
+ @keyframes orbloop {
+     from {
+         transform: rotate(0deg);
+     }
+     to {
+         transform: rotate(360deg);
+     }
+ }
+ 
+ @-webkit-keyframes orbmove {
+     from {
+         -webkit-transform: translateX(0px);
+     }
+     to {
+         -webkit-transform: translateX(2000px);
+     }
+ }
+ 
+ @keyframes orbmove {
+     from {
+         transform: translateX(0px) translateY(0px);
+     }
+     to {
+         transform: translateX(-2000px) translateY(2000px);
+     }
+ }
+ 
+ @-webkit-keyframes orbmovey {
+     from {
+         -webkit-transform: translateY(0px);
+     }
+     to {
+         -webkit-transform: translateY(-2000px);
+     }
+ }
+ 
+ @keyframes orbmovey {
+     from {
+         transform: translateY(0px);
+     }
+     to {
+         transform: translateY(-2000px);
+     }
+ }
+ 
+ #bg {
+     position: fixed;
+     width: 1000px;
+     height: 100%;
+     top: 50%;
+     left: 50%;
+     margin-left: -500px;
+     margin-top: -500px;
+     z-index: -1;
+ }
+ 
+ #bg div div {
+     position: absolute;
+ }
+ 
+ #bg {
+     opacity: 0;
+ }
+ 
+ #bg .row1 div {
+     -webkit-animation: orbmove 48s linear infinite;
+     animation: orbmove 96s linear infinite;
+ }
+ 
+ #bg .row1 .orb1 {
+     position: absolute;
+     width: 60px;
+     height: 60px;
+     top: 60%;
+     left: 50%;
+     margin-left: -30px;
+     margin-top: -380px;
+ }
+ 
+ #bg .row1 .orb1 div {
+     width: 100%;
+     height: 100%;
+     border-radius: 60px;
+     background: -webkit-linear-gradient(top, #ffffff, #ededed);
+     background: linear-gradient(to bottom, #ffffff, #ededed);
+     -webkit-animation: orbloop 6s linear infinite;
+     animation: orbloop 6s linear infinite;
+ }
+ 
+ #bg .row1 .orb2 {
+     position: absolute;
+     width: 100px;
+     height: 100px;
+     top: 60%;
+     left: 50%;
+     margin-left: 450px;
+     margin-top: 50px;
+ }
+ 
+ #bg .row1 .orb2 div {
+     width: 100%;
+     height: 100%;
+     border-radius: 100px;
+     background: -webkit-linear-gradient(top, #ffffff, #ededed);
+     background: linear-gradient(to bottom, #ffffff, #ededed);
+     -webkit-animation: orbloop 6s linear infinite;
+     animation: orbloop 6s linear infinite;
+ }
+ 
+ #bg .row1 .orb1c {
+     position: absolute;
+     width: 60px;
+     height: 60px;
+     top: 60%;
+     left: 50%;
+     margin-left: 1970px;
+     margin-top: -380px;
+ }
+ 
+ #bg .row1 .orb1c div {
+     width: 100%;
+     height: 100%;
+     border-radius: 60px;
+     background: -webkit-linear-gradient(top, #ffffff, #ededed);
+     background: linear-gradient(to bottom, #ffffff, #ededed);
+     -webkit-animation: orbloop 6s linear infinite;
+     animation: orbloop 6s linear infinite;
+ }
+ 
+ #bg .row1 .orb2c {
+     position: absolute;
+     width: 100px;
+     height: 100px;
+     top: 60%;
+     left: 50%;
+     margin-left: 2450px;
+     margin-top: 50px;
+ }
+ 
+ #bg .row1 .orb2c div {
+     width: 100%;
+     height: 100%;
+     border-radius: 100px;
+     background: -webkit-linear-gradient(top, #ffffff, #ededed);
+     background: linear-gradient(to bottom, #ffffff, #ededed);
+     -webkit-animation: orbloop 6s linear infinite;
+     animation: orbloop 6s linear infinite;
+ }
+ 
+ #bg .row2 div {
+     -webkit-animation: orbmove 24s linear infinite;
+     animation: orbmove 48s linear infinite;
+ }
+ 
+ #bg .row2 .orb1 {
+     position: absolute;
+     width: 200px;
+     height: 200px;
+     top: 60%;
+     left: 50%;
+     margin-left: -500px;
+     margin-top: -300px;
+ }
+ 
+ #bg .row2 .orb1 div {
+     width: 100%;
+     height: 100%;
+     border-radius: 200px;
+     background: -webkit-linear-gradient(top, #ffffff, #ededed);
+     background: linear-gradient(to bottom, #ffffff, #ededed);
+     -webkit-animation: orbloop 6s linear infinite;
+     animation: orbloop 6s linear infinite;
+ }
+ 
+ #bg .row2 .orb2 {
+     position: absolute;
+     width: 250px;
+     height: 250px;
+     top: 60%;
+     left: 50%;
+     margin-left: 175px;
+     margin-top: -125px;
+ }
+ 
+ #bg .row2 .orb2 div {
+     width: 100%;
+     height: 100%;
+     border-radius: 250px;
+     background: -webkit-linear-gradient(top, #ffffff, #ededed);
+     background: linear-gradient(to bottom, #ffffff, #ededed);
+     -webkit-animation: orbloop 6s linear infinite;
+     animation: orbloop 6s linear infinite;
+ }
+ 
+ #bg .row2 .orb1c {
+     position: absolute;
+     width: 200px;
+     height: 200px;
+     top: 60%;
+     left: 50%;
+     margin-left: 1500px;
+     margin-top: -300px;
+ }
+ 
+ #bg .row2 .orb1c div {
+     width: 100%;
+     height: 100%;
+     border-radius: 200px;
+     background: -webkit-linear-gradient(top, #ffffff, #ededed);
+     background: linear-gradient(to bottom, #ffffff, #ededed);
+     -webkit-animation: orbloop 6s linear infinite;
+     animation: orbloop 6s linear infinite;
+ }
+ 
+ #bg .row2 .orb2c {
+     position: absolute;
+     width: 400px;
+     height: 400px;
+     top: 60%;
+     left: 50%;
+     margin-left: 2100px;
+     margin-top: -200px;
+ }
+ 
+ #bg .row2 .orb2c div {
+     width: 100%;
+     height: 100%;
+     border-radius: 400px;
+     background: -webkit-linear-gradient(top, #ffffff, #ededed);
+     background: linear-gradient(to bottom, #ffffff, #ededed);
+     -webkit-animation: orbloop 6s linear infinite;
+     animation: orbloop 6s linear infinite;
+ }
+ 
+ #bg .row3 div {
+     -webkit-animation: orbmove 12s linear infinite;
+     animation: orbmove 24s linear infinite;
+ }
+ 
+ #bg .row3 .orb1 {
+     position: absolute;
+     width: 300px;
+     height: 300px;
+     top: 60%;
+     left: 50%;
+     margin-left: 850px;
+     margin-top: -300px;
+ }
+ 
+ #bg .row3 .orb1 div {
+     width: 100%;
+     height: 100%;
+     border-radius: 300px;
+     background: -webkit-linear-gradient(top, #ffffff, #ededed);
+     background: linear-gradient(to bottom, #ffffff, #ededed);
+     -webkit-animation: orbloop 6s linear infinite;
+     animation: orbloop 6s linear infinite;
+ }
+ 
+ #bg .row3 .orb2 {
+     position: absolute;
+     width: 600px;
+     height: 600px;
+     top: 60%;
+     left: 50%;
+     margin-left: 0px;
+     margin-top: 0px;
+ }
+ 
+ #bg .row3 .orb2 div {
+     width: 100%;
+     height: 100%;
+     border-radius: 600px;
+     background: -webkit-linear-gradient(top, #ffffff, #ededed);
+     background: linear-gradient(to bottom, #ffffff, #ededed);
+     -webkit-animation: orbloop 6s linear infinite;
+     animation: orbloop 6s linear infinite;
+ }
+ 
+ #bg .row3 .orb1c {
+     position: absolute;
+     width: 300px;
+     height: 300px;
+     top: 60%;
+     left: 50%;
+     margin-left: 2850px;
+     margin-top: -300px;
+ }
+ 
+ #bg .row3 .orb1c div {
+     width: 100%;
+     height: 100%;
+     border-radius: 300px;
+     background: -webkit-linear-gradient(top, #ffffff, #ededed);
+     background: linear-gradient(to bottom, #ffffff, #ededed);
+     -webkit-animation: orbloop 6s linear infinite;
+     animation: orbloop 6s linear infinite;
+ }
+ 
+ #bg .row3 .orb2c {
+     position: absolute;
+     width: 600px;
+     height: 600px;
+     top: 60%;
+     left: 50%;
+     margin-left: 2000px;
+     margin-top: 0px;
+ }
+ 
+ #bg .row3 .orb2c div {
+     width: 100%;
+     height: 100%;
+     border-radius: 600px;
+     background: -webkit-linear-gradient(top, #ffffff, #ededed);
+     background: linear-gradient(to bottom, #ffffff, #ededed);
+     -webkit-animation: orbloop 6s linear infinite;
+     animation: orbloop 6s linear infinite;
+ }
+ 
+ #bg .row1c div {
+     -webkit-animation: orbmovey 48s linear infinite;
+     animation: orbmovey 96s linear infinite;
+ }
+ 
+ #bg .row1c .orb1 {
+     position: absolute;
+     width: 60px;
+     height: 60px;
+     top: 60%;
+     left: 50%;
+     margin-left: -30px;
+     margin-top: -380px;
+ }
+ 
+ #bg .row1c .orb1 div {
+     width: 100%;
+     height: 100%;
+     border-radius: 60px;
+     background: -webkit-linear-gradient(top, #ffffff, #ededed);
+     background: linear-gradient(to bottom, #ffffff, #ededed);
+     -webkit-animation: orbloop 6s linear infinite;
+     animation: orbloop 6s linear infinite;
+ }
+ 
+ #bg .row1c .orb2 {
+     position: absolute;
+     width: 100px;
+     height: 100px;
+     top: 60%;
+     left: 50%;
+     margin-left: 450px;
+     margin-top: 50px;
+ }
+ 
+ #bg .row1c .orb2 div {
+     width: 100%;
+     height: 100%;
+     border-radius: 100px;
+     background: -webkit-linear-gradient(top, #ffffff, #ededed);
+     background: linear-gradient(to bottom, #ffffff, #ededed);
+     -webkit-animation: orbloop 6s linear infinite;
+     animation: orbloop 6s linear infinite;
+ }
+ 
+ #bg .row1c .orb1c {
+     position: absolute;
+     width: 60px;
+     height: 60px;
+     top: 60%;
+     left: 50%;
+     margin-left: 1970px;
+     margin-top: -380px;
+ }
+ 
+ #bg .row1c .orb1c div {
+     width: 100%;
+     height: 100%;
+     border-radius: 60px;
+     background: -webkit-linear-gradient(top, #ffffff, #ededed);
+     background: linear-gradient(to bottom, #ffffff, #ededed);
+     -webkit-animation: orbloop 6s linear infinite;
+     animation: orbloop 6s linear infinite;
+ }
+ 
+ #bg .row1c .orb2c {
+     position: absolute;
+     width: 100px;
+     height: 100px;
+     top: 60%;
+     left: 50%;
+     margin-left: 2450px;
+     margin-top: 50px;
+ }
+ 
+ #bg .row1c .orb2c div {
+     width: 100%;
+     height: 100%;
+     border-radius: 100px;
+     background: -webkit-linear-gradient(top, #ffffff, #ededed);
+     background: linear-gradient(to bottom, #ffffff, #ededed);
+     -webkit-animation: orbloop 6s linear infinite;
+     animation: orbloop 6s linear infinite;
+ }
+ 
+ #bg .row2c div {
+     -webkit-animation: orbmovey 24s linear infinite;
+     animation: orbmovey 48s linear infinite;
+ }
+ 
+ #bg .row2c .orb1 {
+     position: absolute;
+     width: 200px;
+     height: 200px;
+     top: 60%;
+     left: 50%;
+     margin-left: -500px;
+     margin-top: -300px;
+ }
+ 
+ #bg .row2c .orb1 div {
+     width: 100%;
+     height: 100%;
+     border-radius: 200px;
+     background: -webkit-linear-gradient(top, #ffffff, #ededed);
+     background: linear-gradient(to bottom, #ffffff, #ededed);
+     -webkit-animation: orbloop 6s linear infinite;
+     animation: orbloop 6s linear infinite;
+ }
+ 
+ #bg .row2c .orb2 {
+     position: absolute;
+     width: 250px;
+     height: 250px;
+     top: 60%;
+     left: 50%;
+     margin-left: 175px;
+     margin-top: -125px;
+ }
+ 
+ #bg .row2c .orb2 div {
+     width: 100%;
+     height: 100%;
+     border-radius: 250px;
+     background: -webkit-linear-gradient(top, #ffffff, #ededed);
+     background: linear-gradient(to bottom, #ffffff, #ededed);
+     -webkit-animation: orbloop 6s linear infinite;
+     animation: orbloop 6s linear infinite;
+ }
+ 
+ #bg .row2c .orb1c {
+     position: absolute;
+     width: 200px;
+     height: 200px;
+     top: 60%;
+     left: 50%;
+     margin-left: 1500px;
+     margin-top: -300px;
+ }
+ 
+ #bg .row2c .orb1c div {
+     width: 100%;
+     height: 100%;
+     border-radius: 200px;
+     background: -webkit-linear-gradient(top, #ffffff, #ededed);
+     background: linear-gradient(to bottom, #ffffff, #ededed);
+     -webkit-animation: orbloop 6s linear infinite;
+     animation: orbloop 6s linear infinite;
+ }
+ 
+ #bg .row2c .orb2c {
+     position: absolute;
+     width: 400px;
+     height: 400px;
+     top: 60%;
+     left: 50%;
+     margin-left: 2100px;
+     margin-top: -200px;
+ }
+ 
+ #bg .row2c .orb2c div {
+     width: 100%;
+     height: 100%;
+     border-radius: 400px;
+     background: -webkit-linear-gradient(top, #ffffff, #ededed);
+     background: linear-gradient(to bottom, #ffffff, #ededed);
+     -webkit-animation: orbloop 6s linear infinite;
+     animation: orbloop 6s linear infinite;
+ }
+ 
+ #bg .row3c div {
+     -webkit-animation: orbmovey 12s linear infinite;
+     animation: orbmovey 24s linear infinite;
+ }
+ 
+ #bg .row3c .orb1 {
+     position: absolute;
+     width: 300px;
+     height: 300px;
+     top: 60%;
+     left: 50%;
+     margin-left: 850px;
+     margin-top: -300px;
+ }
+ 
+ #bg .row3c .orb1 div {
+     width: 100%;
+     height: 100%;
+     border-radius: 300px;
+     background: -webkit-linear-gradient(top, #ffffff, #ededed);
+     background: linear-gradient(to bottom, #ffffff, #ededed);
+     -webkit-animation: orbloop 6s linear infinite;
+     animation: orbloop 6s linear infinite;
+ }
+ 
+ #bg .row3c .orb2 {
+     position: absolute;
+     width: 600px;
+     height: 600px;
+     top: 60%;
+     left: 50%;
+     margin-left: 0px;
+     margin-top: 0px;
+ }
+ 
+ #bg .row3c .orb2 div {
+     width: 100%;
+     height: 100%;
+     border-radius: 600px;
+     background: -webkit-linear-gradient(top, #ffffff, #ededed);
+     background: linear-gradient(to bottom, #ffffff, #ededed);
+     -webkit-animation: orbloop 6s linear infinite;
+     animation: orbloop 6s linear infinite;
+ }
+ 
+ #bg .row3c .orb1c {
+     position: absolute;
+     width: 300px;
+     height: 300px;
+     top: 60%;
+     left: 50%;
+     margin-left: 2850px;
+     margin-top: -300px;
+ }
+ 
+ #bg .row3c .orb1c div {
+     width: 100%;
+     height: 100%;
+     border-radius: 300px;
+     background: -webkit-linear-gradient(top, #ffffff, #ededed);
+     background: linear-gradient(to bottom, #ffffff, #ededed);
+     -webkit-animation: orbloop 6s linear infinite;
+     animation: orbloop 6s linear infinite;
+ }
+ 
+ #bg .row3c .orb2c {
+     position: absolute;
+     width: 600px;
+     height: 600px;
+     top: 60%;
+     left: 50%;
+     margin-left: 2000px;
+     margin-top: 0px;
+ }
+ 
+ #bg .row3c .orb2c div {
+     width: 100%;
+     height: 100%;
+     border-radius: 600px;
+     background: -webkit-linear-gradient(top, #ffffff, #ededed);
+     background: linear-gradient(to bottom, #ffffff, #ededed);
+     -webkit-animation: orbloop 6s linear infinite;
+     animation: orbloop 6s linear infinite;
+ }
